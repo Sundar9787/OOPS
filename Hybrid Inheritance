@@ -1,0 +1,21 @@
+class Grandfather:
+    def show_grandfather(self):
+        print("I am the Grandfather")
+
+class Father(Grandfather):
+    def show_father(self):
+        print("I am the father")
+        
+class Mother:
+    def show_mother(self):
+        print("I am the Mother")
+        
+class Child(Father,Mother):
+    def show_child(self):
+        print("I am the child")
+        
+c = Child()
+c.show_grandfather()
+c.show_father()
+c.show_mother()
+c.show_child()
