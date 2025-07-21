@@ -1,0 +1,13 @@
+try:
+    n = int(input('Enter number: '))
+    ans = 10/n 
+    print(ans)
+
+except ZeroDivisionError:
+    print("Number cannot be divided by zero")
+
+except ValueError :
+    print("Invalid input! Enter only numbers")
+
+finally:
+    print("Program ended")
