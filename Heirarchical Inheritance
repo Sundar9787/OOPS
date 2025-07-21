@@ -1,0 +1,20 @@
+class Parent:
+    def show_parent(self):
+        print("I am the parent")
+
+class Child_1(Parent):
+    def show_child1(self):
+        print("I am the Child_1")
+        
+class Child_2(Parent):
+    def show_child2(self):
+        print("I am the Child_2")
+        
+c1 = Child_1()
+c1.show_parent()
+c1.show_child1()
+
+c2 = Child_2()
+c2.show_parent()
+c2.show_child2()
+
